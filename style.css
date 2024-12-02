@@ -1,0 +1,235 @@
+  *{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-buttons .free-lms {
+    background-color: #f39c12;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .header-buttons .login-btn, .header-buttons .signup-btn {
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .header-buttons .signup-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .icon-menu {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .icon-menu i {
+    color: #333;
+  } 
+  
+  body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+
+  }
+  
+  h1 {
+    background-color: #007b5e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  p{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .description {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .webinar-list {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .webinar-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f46;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+footer {
+  background-color: #061a40;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 15px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #2c3e50;
+  padding-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #f39c12;
+}
+  
+@media screen and (min-width:320px) and (max-width:768px){
+  .header-container{
+    display: none;
+  }
+  .schedule-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  .description{
+    flex-direction: column;
+    justify-content: center;
+  }
+}    
+    
